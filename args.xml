@@ -1,0 +1,32 @@
+<!--Please don't put any slashes at the end of any path-->
+<data>
+    <args>
+        <!--index 0 -->
+        <item svn_repo=""/>
+        <!--index 1 -->
+        <item svn_revision=""/>
+        <!--index 2-->
+        <item checkout_path="/home/necuser/Anand"/>
+        <!--index 3-->
+        <item build_script=""/>
+        <!--index 4-->
+        <item VERSION_MAJOR="6"/>
+        <!--index 5-->
+        <item VERSION_MINOR="66"/>
+        <!--index 6-->
+        <item VERSION_INTERNAL="6666"/>
+        <!--index 7-->
+        <item INPUT="N"/>
+        <!--please give time according to the build machine's time-->
+        <!--index 8-->
+        <item time="17:54:07"/>
+        <!--index 9-->
+        <item script="sample.py"/>
+        <!-- if the path is absolute, put '$' in patchPath, otherwise, enter the path from root till the directory
+        where patch was created. You can see that by opening the patch file, written at the top.-->
+        <!--index 10-->
+        <item patchPath=""/>
+        <!--index 11-->
+        <item path_for_mib_readme_tkf="/home/necuser/Anand"/>
+    </args>
+</data>

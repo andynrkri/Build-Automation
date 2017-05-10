@@ -1,0 +1,27 @@
+1. The automation files are in build/Build_automation_release.
+   There are four files:
+    (A). args.xml - This is the file where you need to enter the values used during automation.
+    (B). HSAN_build_Automation.py - The main script that will be executed for automation to start.
+    (C). readme - This file.
+    (D). sendMail.py - To send the mail, but you don't need to use it anyway.
+    (E). start_build - if you've given time and script in the args file then you need to execute this file.
+
+    The above files need to stick together in checkout_path/Build_automation_release directory.
+
+2. Please make sure you put AutoBoot_Script_V02_POWER_afterNonAuto.sh in checkout path, it's name is the exact as given here,
+   it's chmod is 777 and it contains the absolute path of args.xml file.
+
+3. Please make sure to have the path to README, App2300_R333_1.129604.tkf and Power_MIB file in the path given in path_for_mib_readme_tkf item of args.xml.
+
+4. Please make sure that you change the owner permission of the checked out project to current user before executing the script(i.e. necuser).
+
+5. DO NOT run the script as root. It'll cause the build to fail.
+
+6. The shadow server should have the ssh key installed in order to send the LTU package to it.
+
+7. Run the HSAN_build_Automation.py by traversing to Build_automation_release dir and using 'python HSAN_build_Automation.py'
+   at terminal.
+
+HAVE QUESTIONS? Shoot a mail at any of the following:
+anand.tyagi@nectechnologies.in
+neeraj@nectechnologies.in
