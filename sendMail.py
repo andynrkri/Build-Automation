@@ -7,8 +7,8 @@ import pickle
 
 with open('report.pkl', 'rb') as input:
     report = pickle.load(input)
-sender = 'sharif.irfan@nectechnologies.in'  # put the senders email id
-receivers = 'neeraj@nectechnologies.in'  # put the recievers id's in a list
+sender = 'abc@xyz.in'  # put the senders email id
+receivers = 'def@xyz.in'  # put the recievers id's in a list
 
 message = "Dear All Concerned, \n"+report
 
